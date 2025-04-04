@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dhurjati&family=Kanit:wght@600&family=Whisper&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .di {
+      background-image: linear-gradient(to left, rgb(238, 224, 226), rgb(240, 234, 234), rgb(240, 224, 172), rgb(196, 234, 247), rgb(245, 214, 158));
+    margin-top: 100px;
+    border-radius: 50%;
+    animation-name: navbar;
+    box-shadow: 6px 6px 3px orange;
+    animation-duration: 4s;
+    animation-fill-mode:forwards;
+    animation-delay: 1s;
+    
+    }
+    @keyframes navbar {
+      from{
+        border-radius: 50%;
+        margin-top: 100px;
+        box-shadow: 6px 6px 3px orange;
+
+      }
+      to{
+        border-radius: 0px;
+        margin-top: 0px;
+        box-shadow: 2px 2px 1px rgb(247, 205, 128);
+      }
+    }
+
+    .na {
+      margin-left: 160px;
+      margin-bottom: 20px;
+    }
+
+
+    .anchor {
+      color: black;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: xx-large;
+      margin-left: 115px;
+      cursor: pointer;
+
+    }
+
+    .why {
+      margin-left: 677px;
+      text-transform: uppercase;
+      font-style: italic;
+      color: rgb(54, 104, 146);
+      text-decoration: underline;
+
+    }
+
+    .choose {
+
+      height: 440px;
+      max-width: 100%;
+      background-color: whitesmoke;
+      margin-top: 150px;
+      animation-name: title1;
+      animation-duration: 2s;
+      animation-delay: 5s;
+    
+    }
+    @keyframes title1 {
+      from{
+        transform: rotateY(0deg);
+      }
+      to{
+        transform: rotateY(360deg);
+      }
+    }
+
+
+    .pp {
+
+      width: 600px;
+      margin-left: 650px;
+      margin-top: -300px;
+      border-style: groove;
+      border-bottom: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-color: rgb(76, 147, 206);
+
+    }
+
+    .src {
+      margin-left: 85px;
+    }
+
+    .winter {
+      margin-left: 333px;
+      margin-top: -383px;
+    }
+
+
+    #vacation {
+      text-transform: capitalize;
+      text-align: center;
+      color: rgb(243, 126, 126);
+      font-weight: bolder;
+      font-family: 'Dhurjati', sans-serif;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Whisper', cursive;
+
+
+    }
+
+    #vacation:hover {
+      text-shadow: 1px 1px 1px rgb(243, 140, 140);
+    }
+    #wint {
+      margin-top: 380px;
+      animation-name: caran;
+      animation-duration: 2s;
+      animation-fill-mode:forwards;
+      animation-delay: 8s;
+      
+
+    }
+    @keyframes caran {
+      from{
+        margin-top: 380px;
+        transform: rotateY(0deg);
+      
+
+      }
+      to{
+        margin-top:20px;
+        transform: rotateY(360deg);
+        
+      }
+    }
+  
+    #two{
+      animation-name: up;
+      margin-top: 380px;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      animation-delay: 10s;
+    }
+    @keyframes up{
+      from{
+        margin-top: 380px;
+        transform: rotateY(0deg);
+      }
+      to{
+        margin-top: -20px;
+        transform: rotateY(360deg);
+      }
+    }
+    #three{
+      animation-name: card3;
+      margin-top: 380px;
+      animation-duration: 3s;
+      animation-delay: 12s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes card3 {
+      from{
+        margin-top: 380px;
+        transform: rotateY(0deg);
+      }
+      to{
+        margin-top: -20px;
+        transform: rotateY(360deg);
+      }
+    }
+    #four{
+      animation-name: card4;
+      margin-top: 380px;
+      animation-delay: 14s;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+    }
+    @keyframes card4 {
+      from{
+        margin-top: 380px;
+        transform: rotateY(0deg);
+      }
+      to{
+        margin-top: -20px;
+        transform: rotateY(360deg);
+      }
+    }
+    
+
+    .Q {
+      margin-left: 667px;
+      margin-top: -381px
+    }
+
+    .last {
+      margin-left: 999px;
+      margin-top: -382px;
+    }
+
+    .l {
+
+      margin-top: 80px;
+    }
+
+    #wint:hover {
+      box-shadow: 3px 3px 1px rgb(243, 200, 243);
+    }
+
+    #two:hover {
+      box-shadow: 3px 3px 1px rgb(211, 206, 206);
+    }
+   
+
+    #three:hover {
+      box-shadow: 3px 3px 3px rgb(189, 153, 64);
+    }
+
+    #four:hover {
+      box-shadow: 3px 3px 3px rgb(138, 207, 230);
+    }
+
+    .footer {
+      background-color: black;
+      height: 346px;
+      width: 100%;
+      margin-top: 90px;
+    }
+   
+
+    iframe {
+      height: 300px;
+      margin-top: 300px;
+      margin-left: 10px;
+      width: 480px;
+    animation-name: eye;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    }
+    @keyframes eye {
+      from{
+        margin-top: 300px;
+
+      }
+      to{
+        margin-top: 20px;
+      }
+    }
+
+
+    .ink {
+      margin-left: 650px;
+      margin-top: -270px;
+      color: red;
+      font-size: 40px;
+    }
+
+    .an {
+      display: block;
+      margin-left: 656px;
+      margin-top: 16px;
+      font-size: 22px;
+      text-decoration: none;
+      color: gray;
+      text-transform: capitalize;
+      width: 80px;
+    }
+
+    .an:hover {
+      color: whitesmoke;
+    }
+
+    .email {
+      color: gray;
+
+      width: 200px;
+      margin-left: 906px;
+      margin-top: 24px;
+
+    }
+
+    .email:hover {
+      color: whitesmoke;
+    }
+
+    .cont {
+      color: gray;
+      width: 181px;
+      margin-left: 906px;
+      margin-top: 26px;
+
+    }
+
+    .cont:hover {
+      color: whitesmoke;
+    }
+
+    .usp {
+      color: red;
+      font-size: 40px;
+      margin-left: 900px;
+      margin-top: -246px
+    }
+
+    .copy {
+
+      height: 50px;
+      width: 600px;
+      margin-left: 100px;
+      margin-top: 30px;
+    }
+
+    .twi {
+      margin-left: 11px;
+      margin-top: 12px;
+    }
+
+    .twi1 {
+      background-color: lightgray;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px
+    }
+
+    .twi1:hover {
+      background-color: lightskyblue
+    }
+
+    .insta {
+      margin-left: 12px;
+      margin-top: 11px;
+
+    }
+
+    .insta1 {
+      background-color: lightgray;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      margin-left: 50px;
+      margin-top: -39px
+    }
+
+    .insta1:hover {
+      background-color: pink
+    }
+
+    .whats {
+      margin-left: 12px;
+      margin-top: 11px;
+
+    }
+
+    .whats1 {
+      background-color: lightgray;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      margin-left: 98px;
+      margin-top: -40px;
+    }
+
+    .whats1:hover {
+      background-color: rgb(161, 226, 161);
+    }
+
+    .pin {
+      margin-left: 12px;
+      margin-top: 11px;
+      ;
+
+    }
+
+    .pin1 {
+      background-color: rgb(240, 233, 233);
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      margin-left: 148px;
+      margin-top: -40px;
+    }
+
+    .pin1:hover {
+      background-color: rgb(241, 104, 104);
+    }
+
+    .right {
+      margin-left: 650px;
+      margin-top: -90px;
+    }
+
+    .cp {
+      width: 568px;
+      margin-left: 669px;
+      margin-top: -67px;
+      color: gray;
+    }
+
+    @media screen and (max-width:390px) {
+
+      body {
+        min-width: 390px;
+      }
+
+      .na {
+        margin-left: 0px;
+
+      }
+
+      .anchor {
+        display: inline;
+        font-size: larger;
+        margin-left: 4px;
+        padding-left: 26px;
+      }
+
+      .choose {
+        height: 950px;
+      }
+
+      .src {
+        margin-left: 8px;
+        height: 292px;
+        margin-top: 19px;
+      }
+
+      .pp {
+        margin-top: 38px;
+        margin-left: 15px;
+        width: 372px;
+        font-size: larger;
+      }
+
+      .why {
+        margin-left: 0px;
+        text-align: center;
+      }
+
+      #wint {
+        margin-left: 43px;
+        height: 400px;
+        width: 315px;
+      }
+
+      #two {
+        margin-top: 410px;
+        margin-left: -288px;
+        height: 400px;
+      }
+
+      #paragraph {
+        font-size: larger;
+      }
+
+      #para {
+        font-size: larger;
+      }
+
+      #three {
+        margin-left: -618px;
+        margin-top: 412px;
+        height: 400px;
+      }
+
+      #second {
+        font-size: larger;
+      }
+
+      #ru {
+        font-size: larger;
+      }
+
+      #four {
+        margin-left: -945px;
+        height: 400px;
+        margin-top: 425px;
+      }
+
+      .footer {
+        height: 600px;
+      }
+
+      iframe {
+        width: 374px;
+        margin-top: 4px;
+        margin-left: 8px;
+      }
+
+      .ink {
+        margin-top: 8px;
+        margin-left: 15px;
+      }
+
+      .an {
+        margin-left: 21px;
+        margin-top: -4px;
+        font-size: x-large;
+      }
+
+      .usp {
+        margin-left: 175px;
+        margin-top: -186px
+      }
+
+      .email {
+        margin-left: 191px;
+        font-size: x-large;
+        margin-top: -8px;
+      }
+
+      .cont {
+        margin-left: 191px;
+        font-size: x-large;
+        margin-top: -2px;
+      }
+
+      .copy {
+        width: 200px;
+        margin-top: 9px;
+        margin-left: 88px;
+      }
+
+      .cp {
+        margin-left: 12px;
+        margin-top: -30px;
+        width: 426px;
+      }
+
+
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="di">
+    <nav class="na">
+      <a class="anchor" href="complex.html">home</a>
+      <a class="anchor" href="">features</a>
+      <a class="anchor" href="">about</a>
+      <a class="anchor" href="">contact</a>
+    </nav>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" class="slider1">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="disney.jpg" id="im" height="600px" width="800px" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="rome1.jpg" height="600px" width="800px" id="im" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="bb.jpg" height="600px" width="800px" id="im" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="choose">
+    <h1 class="why">why always us</h1>
+    <img class="src" src="iceland.jpg" alt="">
+    <p class="pp">Whether you are on Holidays or on a Business Trip and want an escape and take some time to discover
+      the city, the
+      best way to experience your destination is with us at Tour Travel & More with any type of Private Experience and
+      Tour in luxury vehicles and qualified and official tour guides. We are a group of travel experts and we love to
+      travel! We always strive to make your experience memorable and unique and deliver the best private city tours and
+      other private sightseeing trips and activities. We will pick you up from the place of your choice, whether it is
+      your hotel, the port, the airport or your apartment. We also offer guided tours in and around every city, and
+      special excursions to some “must do’s” in all locations.</p>
+  </div>
+  </div>
+
+  <div class="l">
+    <h1 id="vacation"><b> vacation tour packages</b></h1>
+    <div class="card" id="wint" style="width: 18rem;">
+      <img src="cherry.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cherry Blossom Special Japan</h5>
+        <p class="card-text" id="paragraph"> <b>Rs 90,000</b> <br>per person</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="winter">
+      <div class="card" id="two" style="width: 18rem;">
+        <img src="win.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Winter Escape in Azerbaijan with Shahdag </h5>
+          <p class="card-text" id="para"><b>Rs 72,000</b> <br>per person</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Q">
+      <div class="card" id="three" style="width: 18rem;">
+        <img src="qu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="spe">Spectacular Azerbaijan with Quba</h5>
+          <p class="card-text" id="second"><b>Rs 83,000</b> <br>per person</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="last">
+      <div class="card" id="four" style="width: 18rem;">
+        <img src="bali.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Relax in Gili with Kuta & Seminyak</h5>
+          <p class="card-text" id="ru"><b>Rs 52,000</b> <br>per person</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="foot">
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.0084029296013!2d-117.92154912546144!3d33.812096230374614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sin!4v1701418121090!5m2!1sen!2sin"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer>
+      <div class="lin">
+        <h1 class="ink">Links</h1>
+        <a class="an" href="table.html">home</a>
+        <a class="an" href="homepage.html">features</a>
+        <a class="an" href="homebur.html">about</a>
+        <a class="an" href="destination.html">contact</a>
+      </div>
+    </footer>
+    <h1 class="usp">Contact Us</h1>
+    <p class="email">email- mmv@gmail.com</p>
+    <p class="cont">mobile no.- 9965099650</p>
+    </div>
+  </div>
+
+  <div class="copy">
+    <div class="twi1">
+      <svg class="twi" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+        class="bi bi-twitter-x" viewBox="0 0 16 16">
+        <path
+          d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+      </svg>
+    </div>
+
+
+    <div class="insta1">
+      <svg class="insta" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+        class="bi bi-instagram" viewBox="0 0 16 16">
+        <path
+          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+      </svg>
+    </div>
+
+
+    <div class="whats1">
+      <svg class="whats" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+        class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+      </svg>
+    </div>
+
+
+    <div class="pin1">
+      <svg class="pin" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+        class="bi bi-pinterest" viewBox="0 0 16 16">
+        <path
+          d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0" />
+      </svg>
+    </div>
+  </div>
+
+  <div>
+    <svg class="right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-c-circle" viewBox="0 0 16 16">
+      <path
+        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+    </svg>
+    <p class="cp">Copyright 2023 by Make My Vacation developed by Wisdom Solution Pathankot </p>
+  </div>
+</body>
+
+</html>
